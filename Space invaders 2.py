@@ -428,6 +428,9 @@ async def main():
 
     # Limit frames per second
     clock.tick(60)
+    
+await asyncio.sleep(0)
 
+asyncio.run(main())
 # Quit Pygame
 pygame.quit()
